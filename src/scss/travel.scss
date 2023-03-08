@@ -1,0 +1,93 @@
+.holder{
+   display: block;
+   background-image: url('../img/travel-bg.png') ;
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   background-size: auto;
+   padding-bottom: 265px;
+   .slider-arrows{
+      top: 225px;
+   }
+}
+
+.holder-slider{
+   display: block;
+   &_head{
+      display: block;
+      background-repeat: no-repeat;
+      background-position: top left;
+      background-size: contain;
+      min-width: 780px;
+      height: 1115px;
+   }
+   &_subtitle{
+      display: block;
+      text-align: right;
+      padding: 130px 80px 0 0;
+   }
+   &_descr{
+      display: block;
+      padding: 160px 0 0 132px;
+      margin-top: -230px;
+      min-height: 320px;
+      background-repeat: no-repeat;
+      background-position: right center;
+      .descr_head{
+         position: relative;
+         padding-right: 80px;
+         img{
+            position: absolute;
+            right: 0;
+            top: 0;
+         }
+      }
+   }
+   &_btn{
+      text-align: center;
+   }
+}
+
+.holder-slider_info{
+   padding-top: 65px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   &-item{
+      min-height: 200px;
+      margin-bottom: 66px;
+      position: relative;
+   }
+}
+.holder-slider_info-subtitle{
+   position: absolute;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   letter-spacing: 8px;
+   opacity: 0.5;
+   transform: rotate(-90deg);
+   left: -130px;
+   width: 200px;
+   height: 0;
+   white-space: nowrap;
+   text-align: right;
+   top: 97px;
+}
+.holder-slider_info-title{
+   position: relative;
+   font-weight: 800;
+   font-size: 40px;
+   line-height: 36px;
+   width: 275px;
+   .holder-pricing_span{
+      position: absolute;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 36px;
+      letter-spacing: 5.25px;
+      opacity: 0.75;
+      right: 20px;
+      top: 30px;
+      
+   }
+}

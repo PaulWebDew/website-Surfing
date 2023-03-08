@@ -1,0 +1,28 @@
+.sleep{
+   display: block;
+   background-image: url('../img/flowerbig.png') ;
+   background-position: right bottom;
+   background-repeat: no-repeat;
+   background-size: auto;
+   .descr_head{
+      padding-right: 48px;
+      &.descr_head-sleep{
+         padding-right: 215px;
+      }
+      
+   }
+   .holder_star-list{
+      position: absolute;
+      right: 0;
+      top: 0;
+      img{
+         position: static;
+      }
+      
+   }
+   
+
+}
+.holder-slider_descr{
+  background-size: contain;
+}
